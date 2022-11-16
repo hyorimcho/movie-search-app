@@ -4,7 +4,7 @@ OMDb API 기반 영화 검색 사이트 만들기
 
 ### 배포 사이트
 
-scenarihyo.netlify.app
+https://scenarihyo.netlify.app/
 
 ### ⚙️ 어려웠던 부분 && 아쉬웠던 부분
 
