@@ -113,7 +113,6 @@ import { setupCounter } from "./counter.js";
   }
 
   async function renderMovies(movies) {
-    console.log(movies);
     for (const movie of movies) {
       const el = document.createElement("div");
       el.classList.add("movie");
