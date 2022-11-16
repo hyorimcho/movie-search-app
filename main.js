@@ -1,6 +1,4 @@
 import "./style.scss";
-import javascriptLogo from "./javascript.svg";
-import { setupCounter } from "./counter.js";
 
 (async () => {
   // 초기화 코드
@@ -38,7 +36,7 @@ import { setupCounter } from "./counter.js";
     if (title === "") {
       alert("제목을 입력해주셔야죠!😃");
     }
-    page = selectPageEl.options[selectPageEl.selectedIndex].value;
+    page = Number(selectPageEl.options[selectPageEl.selectedIndex].value);
     year = selectYearEl.options[selectYearEl.selectedIndex].value;
     for (let i = 1; i <= page; i++) {
       const movies = await getMovies(title, year, i);
